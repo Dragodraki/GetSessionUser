@@ -1,9 +1,9 @@
 # GetSessionUser
-Get account name, SID and profile path of logged-in user session
+Get account name, SID and profile path of logged-in user session <br/>
 (Release Date: 15.06.2024, Publisher: Dragodraki alias Dreamland, Notice: designed by me and no fork)
 
 <br/>
-[<img src="https://user-images.githubusercontent.com/76787321/197257488-1b7aa8e9-9b6f-4600-949e-8ff477cb4bf4.png" width="23%"></img>](https://github.com/Dragodraki/GetSessionUser/releases/latest/download/GetSessionUser.exe)
+<img src="https://user-images.githubusercontent.com/76787321/197257488-1b7aa8e9-9b6f-4600-949e-8ff477cb4bf4.png" width="23%"></img>](https://github.com/Dragodraki/GetSessionUser/releases/latest/download/GetSessionUser.exe)
 <br/>
 
 If you run software, you often do this with another users account. Especially if you have limited user rights only (medium integrity level) per default and do not belong to administrator group: If you run a process that requires elevated rights, by typing in the user credentials of another user in UAC you not only borrow elevated token from another one but act fully as if you were logged on with that account. Microsoft does not know "Run with administrator rights" but only "Run as administrator (account)".
