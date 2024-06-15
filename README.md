@@ -15,11 +15,16 @@ This program cannot undo this, but it can deetermine the original user for you. 
 Update: I have written another program that not only retrieve that information but also De-Elevate (or maybe better De-Runas) when starting a program you provde as parameter. It's much more powerful than this tool because it includes the ready patch for the problem mentioned above already: https://github.com/Dragodraki/RunUnElevated
 
 -------------------------------
-Windows Support
+WINDOWS SUPPORT
 -------------------------------
 
-Its written in C++ and compiled with Visual Studio 2008 on Windows XP with multithreaded debug. Thats why it is compatible even with systems haven't installed C++ Redistributable packages. It's tested successfully on the following Windows versions:
+Its a command-line application written in C++ and compiled with Visual Studio 2008 on Windows XP with multithreaded debug. That's why it is compatible even with systems haven't installed C++ Redistributable packages. It's tested successfully on the following Windows versions:
 - Windows 2000
 - Windows XP (32-Bit)
 - Windows 7 (64-Bit)
 - Windows 11 (64-Bit)
+
+-------------------------------
+USAGE
+-------------------------------
+Unlike my general project "RunUnElevated" application "GetSessionUser" just outputs the session user information within terminal. You have to catch the output by another app and shorten the string by your preferences to make use of the information programatically. If you just want to see it worrking, open cmd.exe with runas another user (or even as system) and enter the path to GetSessionUser.exe.
