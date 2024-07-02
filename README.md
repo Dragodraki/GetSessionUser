@@ -12,7 +12,7 @@ That will be a problem as soon you gathered elevated rights as said limited user
 
 This program cannot undo this, but it can deetermine the original user for you. In IT we call it the session user that is logged on. Currently this method is only possible with a WMI query. With the information of the actual user (session) you might be able to patch your installer by yourself to use the correct environment.
 
-Update: I have written another program that not only retrieve that information but also De-Elevate (or maybe better De-Runas) when starting a program you provde as parameter. It's much more powerful than this tool because it includes the ready patch for the problem mentioned above already: https://github.com/Dragodraki/RunUnElevated
+Update: I have written another program that not only retrieve that information but also De-Elevate (or maybe better De-Runas) when starting a program you provde as parameter. It's much more powerful than this tool because it includes the ready patch for the problem mentioned above already: https://github.com/Dragodraki/RunasMe
 
 -------------------------------
 WINDOWS SUPPORT
