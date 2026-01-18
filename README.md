@@ -14,6 +14,7 @@ This program cannot undo this, but it can deetermine the original user for you. 
 
 Update: I have written another program that not only retrieve that information but also De-Elevate (or maybe better De-Runas) when starting a program you provde as parameter. It's much more powerful than this tool because it includes the ready patch for the problem mentioned above already: https://github.com/Dragodraki/RunasMe
 <br/>
+<br/>
 
 -------------------------------
 WINDOWS SUPPORT
